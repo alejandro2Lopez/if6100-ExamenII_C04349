@@ -45,7 +45,7 @@ public class AguinaldoTest {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
         System.out.println("Probando Código 2");
         LocalDateTime startDate =  LocalDateTime.parse("2021-03-09 10:30" , formatter);
-        LocalDateTime endDate = LocalDateTime.parse("2020-03-09 10:30", formatter);
+        LocalDateTime endDate = LocalDateTime.parse("2022-03-09 10:30", formatter);
         float amount = 100000;
         float expResult = -2;
         float result = Aguinaldo.findbonus(startDate, endDate, amount);
